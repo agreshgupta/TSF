@@ -1,0 +1,87 @@
+/* common or index.html */
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100vh;
+ 
+  background-color: #4ABDAC;
+  
+}
+header, footer{
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  background-color: #161616ad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  	
+}
+header{
+  top: 0px;
+}
+header h1{
+  width: 200px;
+  text-align: center;
+}
+.navigation{
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+}
+.navigation a{
+  background-color:#4ABDAC;
+  text-decoration: none;
+  color: inherit;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: .5px solid;
+  border-color: #161616ad;
+  border-radius: 0px;
+  margin-left: 5px;
+}
+.us{
+  margin-left: 15px;
+}
+.navigation a:hover{
+  background-color: #fff;
+  color: #000000ad;
+}
+body{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box{
+  border: 2px solid #000;
+  flex-wrap: wrap;
+  display: grid;
+  margin: auto;
+  width: 40%;
+  height: 60vh;
+  position: absolute;
+  top: 20vh;
+  left: 60px;
+}
+.box:nth-child(odd){
+  right: -700px;
+}
+footer{
+  bottom: 0px;
+  height: 5vh;
+  margin: -50px;
+}
+footer p{
+  margin: auto;
+  
+}
+
+#copyright{
+    margin: -155px;
+}
+/* common or index.html */
